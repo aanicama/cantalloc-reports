@@ -1,3 +1,3 @@
 com\example\jasperreports\JasperReportsApplication.class
-com\example\jasperreports\service\ReportService.class
 com\example\jasperreports\controller\ReportController.class
+com\example\jasperreports\service\ReportService.class

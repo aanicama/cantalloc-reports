@@ -14,7 +14,7 @@ FROM eclipse-temurin:17-jdk-alpine
 WORKDIR /app
 
 # Copiar el JAR generado desde la etapa de compilación
-COPY --from=build /app/target/*.jar app.jar
+COPY --from=build /app/target/*.jar jasper-reports-1.0.0.jar
 
 # Exponer el puerto de la aplicación
 EXPOSE 8080

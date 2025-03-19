@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="CharlaPreventiva" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5efe9900-924c-4b11-8ff5-fd87cac6235e">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySqlDataAdapter.jrdax"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 9_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Dataset1" uuid="ced18dd0-dad5-4efc-b250-cecc6d2122a5">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySqlDataAdapter.jrdax"/>
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="479"/>
+		<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="521"/>
+		<parameter name="id_registro" class="java.lang.Integer"/>
+		<queryString>
+			<![CDATA[SELECT
+    mc.id_medida,
+    mc.descripcion_medida,
+    p.descripcion_peligro,
+    COALESCE(rad.id_registro, '') AS id_registro,  -- Si no existe, dejar vacío
+ 	COALESCE(rad.checked, 0) AS checked,
+    COALESCE(rad.id_peligro, '') AS id_peligro     -- Si no existe, dejar vacío
+FROM medidas_control mc
+inner join u969339482_CANTALLOC.peligros p on mc.id_peligro = p.id_peligro
+LEFT JOIN u969339482_CANTALLOC.registro_actividades_detalles rad
+    ON mc.id_medida = rad.id_medida
+    AND rad.id_registro =  $P{id_registro}   -- Filtramos solo el registro específico
+where p.clasificacion = 1
+ORDER BY mc.id_medida]]>
+		</queryString>
+		<field name="id_medida" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="id_medida"/>
+			<property name="com.jaspersoft.studio.field.label" value="id_medida"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="medidas_control"/>
+		</field>
+		<field name="descripcion_medida" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="descripcion_medida"/>
+			<property name="com.jaspersoft.studio.field.label" value="descripcion_medida"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="medidas_control"/>
+		</field>
+		<field name="descripcion_peligro" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="descripcion_peligro"/>
+			<property name="com.jaspersoft.studio.field.label" value="descripcion_peligro"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="peligros"/>
+		</field>
+		<field name="id_registro" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="id_registro"/>
+			<property name="com.jaspersoft.studio.field.label" value="id_registro"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades_detalles"/>
+		</field>
+		<field name="checked" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="checked"/>
+			<property name="com.jaspersoft.studio.field.label" value="checked"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades_detalles"/>
+			<fieldDescription><![CDATA[Para indicar si la medida de control ha sido marcada o no]]></fieldDescription>
+		</field>
+		<field name="id_peligro" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="id_peligro"/>
+			<property name="com.jaspersoft.studio.field.label" value="id_peligro"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades_detalles"/>
+			<fieldDescription><![CDATA[idenficador de peligro relacionado con la medida de control]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="Dataset2" uuid="9a0a9cd4-44d4-4ad4-91e8-d67a3b4d2e84">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySqlDataAdapter.jrdax"/>
+		<parameter name="id_registro" class="java.lang.Integer"/>
+		<queryString language="SQL">
+			<![CDATA[SELECT
+    mc.id_medida,
+    mc.descripcion_medida,
+    p.descripcion_peligro,
+    COALESCE(rad.id_registro, '') AS id_registro,  -- Si no existe, dejar vacío
+ 	COALESCE(rad.checked, 0) AS checked,
+    COALESCE(rad.id_peligro, '') AS id_peligro     -- Si no existe, dejar vacío
+FROM medidas_control mc
+inner join u969339482_CANTALLOC.peligros p on mc.id_peligro = p.id_peligro
+LEFT JOIN u969339482_CANTALLOC.registro_actividades_detalles rad
+    ON mc.id_medida = rad.id_medida
+    AND rad.id_registro =  $P{id_registro}   -- Filtramos solo el registro específico
+where p.clasificacion = 2
+ORDER BY mc.id_medida]]>
+		</queryString>
+		<field name="id_medida" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="id_medida"/>
+			<property name="com.jaspersoft.studio.field.label" value="id_medida"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="medidas_control"/>
+		</field>
+		<field name="descripcion_medida" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="descripcion_medida"/>
+			<property name="com.jaspersoft.studio.field.label" value="descripcion_medida"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="medidas_control"/>
+		</field>
+		<field name="descripcion_peligro" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="descripcion_peligro"/>
+			<property name="com.jaspersoft.studio.field.label" value="descripcion_peligro"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="peligros"/>
+		</field>
+		<field name="id_registro" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="id_registro"/>
+			<property name="com.jaspersoft.studio.field.label" value="id_registro"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades_detalles"/>
+		</field>
+		<field name="checked" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="checked"/>
+			<property name="com.jaspersoft.studio.field.label" value="checked"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades_detalles"/>
+			<fieldDescription><![CDATA[Para indicar si la medida de control ha sido marcada o no]]></fieldDescription>
+		</field>
+		<field name="id_peligro" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="id_peligro"/>
+			<property name="com.jaspersoft.studio.field.label" value="id_peligro"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades_detalles"/>
+			<fieldDescription><![CDATA[idenficador de peligro relacionado con la medida de control]]></fieldDescription>
+		</field>
+	</subDataset>
+	<subDataset name="Participantes" uuid="0f12768a-23f1-4a19-ac70-ede03927304c">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySqlDataAdapter.jrdax"/>
+		<parameter name="id_registro" class="java.lang.Integer"/>
+		<queryString language="SQL">
+			<![CDATA[SELECT
+        rap.id_registro,
+        per.id_personal,
+        per.dni,
+        per.nombre_personal,
+        per.apellido_personal,
+        per.cargo_personal
+    FROM registro_actividades_personal rap
+    LEFT JOIN personal per ON rap.id_personal = per.id_personal
+    WHERE rap.id_registro = $P{id_registro}]]>
+		</queryString>
+		<field name="id_registro" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="id_registro"/>
+			<property name="com.jaspersoft.studio.field.label" value="id_registro"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades_personal"/>
+			<fieldDescription><![CDATA[Identificación de la reunión asociada al detalle de personal asistente]]></fieldDescription>
+		</field>
+		<field name="id_personal" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="id_personal"/>
+			<property name="com.jaspersoft.studio.field.label" value="id_personal"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="personal"/>
+		</field>
+		<field name="dni" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="dni"/>
+			<property name="com.jaspersoft.studio.field.label" value="dni"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="personal"/>
+		</field>
+		<field name="nombre_personal" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="nombre_personal"/>
+			<property name="com.jaspersoft.studio.field.label" value="nombre_personal"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="personal"/>
+		</field>
+		<field name="apellido_personal" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="apellido_personal"/>
+			<property name="com.jaspersoft.studio.field.label" value="apellido_personal"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="personal"/>
+		</field>
+		<field name="cargo_personal" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="cargo_personal"/>
+			<property name="com.jaspersoft.studio.field.label" value="cargo_personal"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="personal"/>
+		</field>
+	</subDataset>
+	<parameter name="id_registro" class="java.lang.Integer">
+		<parameterDescription><![CDATA[Valor del registro de la charla]]></parameterDescription>
+	</parameter>
+	<queryString language="SQL">
+		<![CDATA[WITH personal_data AS (
+    SELECT
+        rap.id_registro,
+        JSON_ARRAYAGG(
+            JSON_OBJECT(
+                'id_personal', per.id_personal,
+                'dni', per.dni,
+                'nombre_personal', per.nombre_personal,
+                'apellido_personal', per.apellido_personal,
+                'cargo_personal', per.cargo_personal
+            )
+        ) AS personal_info
+    FROM registro_actividades_personal rap
+    LEFT JOIN personal per ON rap.id_personal = per.id_personal
+    WHERE rap.id_registro = $P{id_registro}
+    GROUP BY rap.id_registro
+),
+medidas_data AS (
+    SELECT
+        rad.id_registro,
+        JSON_ARRAYAGG(
+            JSON_OBJECT(
+                'id_medida', rad.id_medida,
+                'descripcion_medida', mc.descripcion_medida,
+                'checked', rad.checked,
+                'id_peligro', rad.id_peligro,
+                'descripcion_peligro', p.descripcion_peligro,
+                'clasificacion', p.clasificacion
+            )
+        ) AS medidas_info
+    FROM registro_actividades_detalles rad
+    LEFT JOIN medidas_control mc ON rad.id_medida = mc.id_medida
+    LEFT JOIN peligros p ON rad.id_peligro = p.id_peligro
+    WHERE rad.id_registro = $P{id_registro}
+    GROUP BY rad.id_registro
+)
+
+SELECT
+    ra.id_area,
+    a.descripcion_area,
+    ra.id_contratista,
+    c.nombre_contratista,
+    ra.permiso_trabajo,
+    ra.id_personal_responsable,
+    pr.nombre_personal,
+    pr.correo,
+    i.id_imagenes,
+    i.imagen,
+    pd.personal_info,
+    md.medidas_info
+FROM registro_actividades ra
+INNER JOIN area a ON ra.id_area = a.id_area
+INNER JOIN contratista c ON ra.id_contratista = c.id_contratista
+INNER JOIN personal_responsable pr ON ra.id_personal_responsable = pr.id_personal_responsable
+LEFT JOIN imagenes i ON ra.id_registro = i.id_registro
+LEFT JOIN personal_data pd ON ra.id_registro = pd.id_registro
+LEFT JOIN medidas_data md ON ra.id_registro = md.id_registro
+WHERE ra.id_registro = $P{id_registro}]]>
+	</queryString>
+	<field name="id_area" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id_area"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_area"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades"/>
+	</field>
+	<field name="descripcion_area" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="descripcion_area"/>
+		<property name="com.jaspersoft.studio.field.label" value="descripcion_area"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="area"/>
+	</field>
+	<field name="id_contratista" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id_contratista"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_contratista"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades"/>
+	</field>
+	<field name="nombre_contratista" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nombre_contratista"/>
+		<property name="com.jaspersoft.studio.field.label" value="nombre_contratista"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="contratista"/>
+	</field>
+	<field name="permiso_trabajo" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="permiso_trabajo"/>
+		<property name="com.jaspersoft.studio.field.label" value="permiso_trabajo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades"/>
+	</field>
+	<field name="id_personal_responsable" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id_personal_responsable"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_personal_responsable"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="registro_actividades"/>
+	</field>
+	<field name="nombre_personal" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nombre_personal"/>
+		<property name="com.jaspersoft.studio.field.label" value="nombre_personal"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personal_responsable"/>
+	</field>
+	<field name="correo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="correo"/>
+		<property name="com.jaspersoft.studio.field.label" value="correo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="personal_responsable"/>
+	</field>
+	<field name="id_imagenes" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id_imagenes"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_imagenes"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="imagenes"/>
+	</field>
+	<field name="imagen" class="byte[]">
+		<property name="com.jaspersoft.studio.field.name" value="imagen"/>
+		<property name="com.jaspersoft.studio.field.label" value="imagen"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="imagenes"/>
+	</field>
+	<field name="personal_info" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="personal_info"/>
+		<property name="com.jaspersoft.studio.field.label" value="personal_info"/>
+	</field>
+	<field name="medidas_info" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="medidas_info"/>
+		<property name="com.jaspersoft.studio.field.label" value="medidas_info"/>
+	</field>
+	<group name="Tabla">
+		<groupHeader>
+			<band height="230">
+				<componentElement>
+					<reportElement x="0" y="10" width="551" height="220" uuid="f74045bb-0d07-4eb9-b3e6-a262fa68068d">
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+						<property name="com.jaspersoft.studio.table.style.table_header" value="Table 3_TH"/>
+						<property name="com.jaspersoft.studio.table.style.column_header" value="Table 3_CH"/>
+						<property name="com.jaspersoft.studio.table.style.detail" value="Table 3_TD"/>
+					</reportElement>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Dataset1" uuid="72d88bcc-19c1-4d60-9ac5-48ea32fb155e">
+							<datasetParameter name="id_registro">
+								<datasetParameterExpression><![CDATA[$P{id_registro}]]></datasetParameterExpression>
+							</datasetParameter>
+							<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+						</datasetRun>
+						<jr:column width="180" uuid="a78c1cc5-1dbc-4eb3-baeb-6310f698a212">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:detailCell style="Table 3_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="180" height="30" uuid="70d55cbf-d1b4-4631-9b71-1113c6069366">
+										<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+									</reportElement>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{descripcion_peligro}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="60" uuid="289ad961-9b81-4923-a3d6-6eedce383926">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:detailCell style="Table 3_TD" height="30">
+								<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+									<pen lineWidth="1.0"/>
+									<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="rgba(0, 0, 0, 0.0)"/>
+								</box>
+								<image hAlign="Center">
+									<reportElement x="20" y="5" width="15" height="15" uuid="7682ab43-9ebc-4b6e-b0cd-e4979ead5c8b"/>
+									<box>
+										<pen lineColor="#000000"/>
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+									<imageExpression><![CDATA[$F{checked} ==1 ? "checkbox_checked.png" : "checkbox_unchecked.png"]]></imageExpression>
+								</image>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="311" uuid="b3bacb42-4573-4b0f-aa92-2d5f123c8121">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							<jr:detailCell style="Table 3_TD" height="30">
+								<box>
+									<leftPen lineWidth="0.0" lineColor="rgba(0, 0, 0, 0.0)"/>
+								</box>
+								<textField>
+									<reportElement style="Table_TH" x="0" y="0" width="311" height="30" backcolor="#FFFFFF" uuid="2df0c760-7b1a-4996-b6b1-9517189d20e6">
+										<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+									</reportElement>
+									<box>
+										<pen lineWidth="1.0" lineStyle="Solid"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="rgba(0, 0, 0, 0.0)"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+									<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{descripcion_medida}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+				<rectangle>
+					<reportElement x="0" y="-24" width="551" height="33" uuid="1f9ad31a-b30e-4b91-a082-0826441a0908"/>
+					<graphicElement>
+						<pen lineWidth="1.0"/>
+					</graphicElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="0" y="-24" width="181" height="34" uuid="ac15da60-84ac-4883-acef-09e5be1b087a"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[IDENTIFICACION DE PELIGROS / RIESGOS]]></text>
+				</staticText>
+				<line>
+					<reportElement x="180" y="-24" width="1" height="34" uuid="9db9c7fc-838d-4d4b-9528-b4978f93d3c3"/>
+				</line>
+				<staticText>
+					<reportElement x="180" y="-24" width="371" height="24" uuid="bddd9d65-55b1-408c-9990-2df83d8db310"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[MEDIDAS DE CONTROL ADOPTADAS]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="TABLA02">
+		<groupHeader>
+			<band height="370">
+				<rectangle>
+					<reportElement x="0" y="0" width="551" height="39" uuid="b637d5a5-e4c5-4159-ba84-431a2d6974f2"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="180" y="0" width="371" height="38" uuid="2268903b-5ff6-42c2-a8bf-ab8c54ba7be2"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[MEDIDAS PARA CONTROLAR EL IMPACTO AMBIENTAL]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="-2" y="0" width="181" height="39" uuid="475202d7-4285-41f9-96dc-7cd8ff822399"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[IDENTIFICACION DE PELIGROS / RIESGOS]]></text>
+				</staticText>
+				<line>
+					<reportElement x="180" y="0" width="1" height="39" uuid="2fee3971-e0fe-4670-9e8f-e651aab5b603"/>
+				</line>
+				<componentElement>
+					<reportElement x="0" y="39" width="551" height="200" uuid="bdd17729-6a49-447a-82cd-5b533b0b57bd">
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+						<property name="com.jaspersoft.studio.table.style.table_header" value="Table 5_TH"/>
+						<property name="com.jaspersoft.studio.table.style.column_header" value="Table 5_CH"/>
+						<property name="com.jaspersoft.studio.table.style.detail" value="Table 5_TD"/>
+					</reportElement>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Dataset2" uuid="bf4c0276-1e52-4813-a69f-76c206980141">
+							<datasetParameter name="id_registro">
+								<datasetParameterExpression><![CDATA[$P{id_registro}]]></datasetParameterExpression>
+							</datasetParameter>
+							<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+						</datasetRun>
+						<jr:column width="180" uuid="3c288a0d-dad8-4cb1-9d20-6956a4cf9bf8">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:detailCell style="Table 5_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="180" height="30" uuid="d055c32c-9757-49d2-b08a-cb1c8bc32bd7"/>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{descripcion_peligro}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="60" uuid="5e72620d-f6a8-4d7d-a14b-ec6d63734612">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:detailCell style="Table 5_TD" height="30">
+								<box>
+									<pen lineWidth="1.0"/>
+									<bottomPen lineWidth="1.0"/>
+									<rightPen lineColor="rgba(0, 0, 0, 0.0)"/>
+								</box>
+								<image hAlign="Center">
+									<reportElement x="20" y="5" width="15" height="15" uuid="765c9b28-0ba9-4a16-95e8-a844f6a2ef49"/>
+									<box>
+										<pen lineColor="#000000"/>
+										<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+									<imageExpression><![CDATA[$F{checked} ==1 ? "checkbox_checked.png" : "checkbox_unchecked.png"]]></imageExpression>
+								</image>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="311" uuid="1d5e87ef-b19d-4da4-9d60-4ae3de9f64eb">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							<jr:detailCell style="Table 5_TD" height="30">
+								<box>
+									<leftPen lineWidth="0.0" lineColor="rgba(0, 0, 0, 0.0)"/>
+								</box>
+								<textField>
+									<reportElement x="0" y="0" width="311" height="30" uuid="6a6df4c8-67e4-43f3-b87c-87aa095b017f"/>
+									<box>
+										<pen lineWidth="1.0" lineStyle="Solid"/>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="rgba(0, 0, 0, 0.0)"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+									<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{descripcion_medida}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+				<rectangle>
+					<reportElement x="0" y="266" width="551" height="50" uuid="bd6dea6a-a7a3-4078-abca-2da206c610ba"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="-1" y="266" width="550" height="19" uuid="e89c9a64-e7b7-4eb9-8e26-0db1301a98fb"/>
+					<textElement textAlignment="Center"/>
+					<text><![CDATA[QUE HACER EN CASO DE ACCIDENTES E INCIDENTES]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="-1" y="285" width="552" height="30" uuid="2825a641-3fc3-410a-8609-ab54cad521e9"/>
+					<text><![CDATA[ 1.- Brindar primeros auxilios y trasladar al accidentado al centro de salud mas cercano a la zona de trabajo.
+ 2.- Comunicar Inmediatamente de acuerdo a la secuencia de avisos de Acidente/Incidente]]></text>
+				</staticText>
+				<line>
+					<reportElement x="1" y="285" width="550" height="1" uuid="9f2e2a08-c37b-4b32-99d4-8be4afac8e33"/>
+				</line>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="Participantes">
+		<groupExpression><![CDATA[$F{medidas_info}]]></groupExpression>
+		<groupHeader>
+			<band height="231">
+				<rectangle>
+					<reportElement x="-1" y="0" width="552" height="18" uuid="4500b468-9675-4f59-a638-28fdf04c8ea7"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="0" y="0" width="551" height="20" uuid="3310ac9c-0602-41aa-94ce-148e4f1b239c"/>
+					<textElement textAlignment="Center">
+						<font size="14" isBold="true"/>
+					</textElement>
+					<text><![CDATA[PARTICIPANTES]]></text>
+				</staticText>
+				<componentElement>
+					<reportElement x="-1" y="50" width="552" height="181" uuid="71615b4d-3e5e-4618-b71b-6bfbdded7b0c">
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+						<property name="com.jaspersoft.studio.table.style.table_header" value="Table 9_TH"/>
+						<property name="com.jaspersoft.studio.table.style.column_header" value="Table 9_CH"/>
+						<property name="com.jaspersoft.studio.table.style.detail" value="Table 9_TD"/>
+					</reportElement>
+					<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+						<datasetRun subDataset="Participantes" uuid="01cab286-55f1-4567-a46e-d20bc4dd099a">
+							<datasetParameter name="id_registro">
+								<datasetParameterExpression><![CDATA[$P{id_registro}]]></datasetParameterExpression>
+							</datasetParameter>
+							<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+						</datasetRun>
+						<jr:column width="40" uuid="3f44874e-b572-4a09-a949-14ad9ee351e8">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:detailCell style="Table 9_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="40" height="30" uuid="bb6f0603-aab4-43bc-8d4c-610e2730114a"/>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="250" uuid="0c00c82f-3829-4e05-999a-9fd2aa848f46">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:detailCell style="Table 9_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="250" height="30" uuid="86bb2101-6930-42cd-89ce-813bb4e2d6d5"/>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{nombre_personal} +" " +  $F{apellido_personal}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="130" uuid="f6dc3f6a-4da9-4f98-a7eb-b9d4ac2b6cd0">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							<jr:detailCell style="Table 9_TD" height="30">
+								<textField>
+									<reportElement x="0" y="0" width="130" height="30" uuid="a81d64f0-f1cf-44fe-9890-638625b86933"/>
+									<box>
+										<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+										<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled"/>
+									<textFieldExpression><![CDATA[$F{cargo_personal}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="132" uuid="cef6edd6-88fc-4d69-b0a3-e39121e02f1e">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+							<jr:detailCell style="Table 9_TD" height="30">
+								<box>
+									<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+									<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+								</box>
+							</jr:detailCell>
+						</jr:column>
+					</jr:table>
+				</componentElement>
+				<rectangle>
+					<reportElement x="-1" y="18" width="552" height="33" uuid="995d4988-1673-46aa-aa11-f385b6c9ea56"/>
+				</rectangle>
+				<staticText>
+					<reportElement x="0" y="18" width="40" height="32" uuid="06392c88-45f1-4e1b-a96e-9a73648e070b"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[N°]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="40" y="18" width="250" height="32" uuid="190113a2-3c64-49e5-ae5b-31a7d4681f9e"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[APELLIDOS Y NOMBRES]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="290" y="18" width="130" height="32" uuid="d77242e7-08ad-4650-ad66-82b609683dbb"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[CARGO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="420" y="18" width="131" height="32" uuid="ecd89fde-5239-455e-8891-df61b1014001"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[FIRMA]]></text>
+				</staticText>
+				<line>
+					<reportElement x="289" y="18" width="1" height="32" uuid="b6d7f72a-fa7f-4086-a2bf-cb868707ea39"/>
+				</line>
+				<line>
+					<reportElement x="419" y="19" width="1" height="31" uuid="73a1b74f-7a41-4b73-ab40-b8cfd80be4dc"/>
+				</line>
+				<line>
+					<reportElement x="39" y="18" width="1" height="32" uuid="ec692f58-b4f3-44cc-9797-be1700fa01cc"/>
+				</line>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="89" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="121" height="81" uuid="b279e1fc-074e-458c-9e5f-a7c4a7b77727"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="150" y="10" width="401" height="61" uuid="a5d6b5d2-4492-4909-90f4-6ded97163c2d"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="150" y="10" width="401" height="30" uuid="3e4ea6e5-cf0d-4b0c-9c88-19ef35e3059b"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CHARLA PREVENTIVA PARA INICIO DE ACTIVIDADES
+]]></text>
+			</staticText>
+			<line>
+				<reportElement x="151" y="40" width="400" height="1" uuid="5515008f-924c-4f98-b283-baf4e4555f03"/>
+			</line>
+			<staticText>
+				<reportElement x="150" y="40" width="401" height="31" uuid="d231c2f3-22bc-4806-b293-854cbfda6edd"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[  Identificar los peligros, riesgos, aspectos e impactos ambientales y determinar medidas de control necesarias para evitar la ocurrencia de accidentes e incidentes]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="103" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="551" height="80" uuid="820b5a92-3bc9-44e4-8495-b2e9bfc4beb1"/>
+			</rectangle>
+			<textField>
+				<reportElement x="51" y="0" width="100" height="20" uuid="5715d3e7-3576-4003-b807-14144052a6d6"/>
+				<textFieldExpression><![CDATA[$F{descripcion_area}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="0" width="90" height="20" uuid="0c250e70-cf3c-45ad-8ca6-b80db42ce927"/>
+				<textFieldExpression><![CDATA[$F{nombre_contratista}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="180" y="0" width="80" height="20" uuid="a8d69fa4-2ec5-40fc-9368-8c08bf7d6f8d"/>
+				<text><![CDATA[CONTRATISTA : ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="510" y="0" width="41" height="20" uuid="45241d38-f8f7-49c2-b683-3ad8225861ba"/>
+				<textFieldExpression><![CDATA[$F{permiso_trabajo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="370" y="0" width="140" height="20" uuid="44ed6e49-b76d-4a24-a223-4b3f17d6a138"/>
+				<text><![CDATA[PERMISO DE TRABAJO N° : ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="20" width="551" height="1" uuid="18fb88ca-555b-4258-897e-0e2e6aacddc5"/>
+			</line>
+			<staticText>
+				<reportElement x="10" y="20" width="250" height="20" uuid="f4382d10-6bc7-4f2d-9da2-dfdeb76444a5"/>
+				<text><![CDATA[SUPERVISOR/RESPONSABLE DE LA ACTIVIDAD : ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="250" y="20" width="100" height="20" uuid="be9decfa-c224-4a35-b5cd-bc88c1329238"/>
+				<textFieldExpression><![CDATA[$F{nombre_personal}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="0" width="130" height="20" uuid="7a2f5900-5b13-43a4-8057-e18603fd931c"/>
+				<text><![CDATA[AREA : ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="40" width="551" height="1" uuid="08ee30cf-0236-491e-b0eb-764c5ec5f60c"/>
+			</line>
+			<staticText>
+				<reportElement x="10" y="40" width="160" height="20" uuid="64ed5b23-f018-4aa4-a2f3-999ea267c962"/>
+				<text><![CDATA[ACTIVIDADES Y/O PROCESOS: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="60" width="549" height="1" uuid="313451a0-4cbb-4c74-8a6a-931606078323"/>
+			</line>
+			<staticText>
+				<reportElement x="10" y="60" width="100" height="30" uuid="af87bbe3-0069-4d37-99ad-ae20d8122945"/>
+				<text><![CDATA[DIRECCION : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="61" width="40" height="19" uuid="ca7f8f42-2664-4b9b-b813-35ffe531828f"/>
+				<text><![CDATA[Fecha : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="445" y="60" width="35" height="20" uuid="d1792536-a595-4e28-b9df-f53ef7a0755c"/>
+				<text><![CDATA[Hora : ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="305" y="61" width="1" height="19" uuid="219c1282-4898-4eff-bd0b-5297ffedf31e"/>
+			</line>
+			<line>
+				<reportElement x="440" y="60" width="1" height="20" uuid="18d1c506-5979-4e33-b838-61f98c9a8211"/>
+			</line>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="12" width="230" height="30" uuid="76f6001c-713e-4940-8e39-7495710e5bd2"/>
+				<text><![CDATA[_______________________________________]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="31" width="220" height="30" uuid="dd54e07e-d2e2-4c6c-a456-b941697addd8"/>
+				<text><![CDATA[FIRMA DE SUPERVISOR O RESPONSABLE DE LA ACTIVIDAD]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

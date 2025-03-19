@@ -31,7 +31,7 @@ public class ReportService {
 
         Map<String, Object> parametros;
         parametros = new HashMap<>();
-        parametros.put("id_registro", null);
+        parametros.put("reportPath", reportPath);
 
 
         // Cargar el archivo .jasper
